@@ -1,7 +1,42 @@
 body {
-	background-color: blue;
-	color: white;
+	
+	font-family:verdana;
+	font-size: 100%;
+
 }
 a { color: red; }
 .vegeterian { color:green; }
 .non_vegeterian { color: red; }
+#css {background-color: red}
+.sidebar {
+	background: linear-gradient(yellow,red);
+	color: black;
+	font size: 60%;
+	width: 20%;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	
+}
+.title {
+	background-color: yellow;
+	width: 100%;
+	height:60px;
+	box-shadow: 5px 10px 8px 10px #888888;
+
+}
+.container{
+	position: relative;
+	height: 1000px;
+}
+.content{
+
+	position: absolute;
+	width: 78%;
+	height: 100%;
+
+
+}
+.food{
+	background: linear-gradient(yellow,blue);
+}
